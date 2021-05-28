@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/scripts.js"></script>
-    <script src="https://kit.fontawesome.com/a15138ce98.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fs-bars"></i>
-      </label>
-      <label class="logo">
-        Samuel Izuagbe
-      </label>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/color.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between ">
+        <div class="logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <div class="coop-btn outer-shadow hover-in-shadow">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-menu">
+    <div class="close-nav-menu">&times;</div>
+    <div class="nav-menu-inner">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contacts.html">Contact</a></li>
+        <li><a href="index.html" class="inner-shadow active">Home</a></li>
+        <li><a href="index.html" class="outer-shadow hover-in-shadow">About</a></li>
+        <li><a href="index.html" class="outer-shadow hover-in-shadow">Contact</a></li>
+        <li><a href="index.html" class="outer-shadow hover-in-shadow">Portfolio</a></li>
+        <li><a href="index.html" class="outer-shadow hover-in-shadow">Services</a></li>
+        <li><a href="index.html" class="outer-shadow hover-in-shadow">Blog</a></li>
       </ul>
-    </nav>
-  </body>
+    </div>
+  </nav>
+</body>
 </html>
