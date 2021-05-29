@@ -148,7 +148,6 @@ img {
   top: 0;
   left: 0;
   z-index: 99;
-  content: '\e846';
 }
 
 .header .logo {
