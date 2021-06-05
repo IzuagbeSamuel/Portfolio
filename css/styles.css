@@ -454,8 +454,8 @@ img {
     transform: translateY(45px);
   }
 }
-
-/* @media (max-width: 952px) {
+/* 
+@media (max-width: 952px) {
   .effect-1 {
     bottom: 20%;
   }
@@ -577,6 +577,35 @@ img {
   border-radius: 5px;
 }
 
+.about-section .about-img .social-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-section .about-img .social-links a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--text-block-600);
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.about-section .about-img .social-links a i {
+  line-height: 30px;
+}
+
+.about-section .about-img .social-links a:after {
+  border-radius: 50%;
+}
+
+.about-section .about-img .social-links a:hover {
+  color: var(--primary-color);
+}
+
 .about-section .about-info {
   flex: 0 0 60%;
   max-width: 60%;
@@ -595,6 +624,21 @@ img {
 
 .about-section .about-info .btn-1 {
   margin: 30px 20px 0 0;
+}
+
+.about-section .about-tabs {
+  padding: 60px 15px 50px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-section .about-tabs .tab-item {
+  display: inline-block;
+  margin: 0 5px 10px;
+  border: 1px solid red;
+  padding: 5px 10px;
+  border-radius: 30px;
 }
 
 /* About-Section Ends */
